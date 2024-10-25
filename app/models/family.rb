@@ -1,3 +1,3 @@
 class Family < ApplicationRecord
-  belongs_to :center
+  acts_as_tenant :center
 end
